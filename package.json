@@ -1,15 +1,11 @@
 {
-	"name": "super-human.docpad",
+	"name": "subset3.docpad",
 	"version": "0.0.1-18",
 	"private": true,
-	"description": "Super-Human Me. Health blog about super-foods and super-humans.",
-	"homepage": "https://github.com/MassDistributionMedia/super-human.me",
+	"description": "subset3.",
+	"homepage": "https://github.com/MassDistributionMedia/subset3.com",
 	"keywords": [
-		"docpad-skeleton",
-		"docpad",
-		"super-huamn",
-		"health",
-		"super-food"
+		"docpad
 	],
 	"author": "MDM Inc <mike@mdm.cm> (http://mdm.cm)",
 	"maintainers": [
@@ -19,11 +15,11 @@
 		"Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
 	],
 	"bugs": {
-		"url": "https://github.com/MassDistributionMedia/super-human.me/issues"
+		"url": "https://github.com/MassDistributionMedia/subset3.com/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/MassDistributionMedia/super-human.me.git"
+		"url": "https://github.com/MassDistributionMedia/subset3.com.git"
 	},
 	"engines": {
 		"node": "0.8.x",
@@ -47,9 +43,9 @@
 		"docpad-plugin-livereload": "2.x"
 	},
 	"main": "node_modules/docpad/bin/docpad-server",
-	"subdomain": "super-human-mdm",
+	"subdomain": "subset3-mdm",
 	"domains": [
-		"super-human.me"
+		"subset3.com"
 	],
 	"scripts": {
 		"start": "node_modules/docpad/bin/docpad-server"
