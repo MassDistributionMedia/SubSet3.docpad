@@ -1,0 +1,29 @@
+--- yaml
+layout: 'default'
+title: 'Home'
+---
+
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="hero-unit">
+	<h1>Hello World. </h1>
+	<p>
+		SubSet 3 is a hackerspace in Hamilton, New Jersey. I also blog much about outer-space. Thank you for stopping by. 
+	</p>
+</div>
+
+<div class="row" style="text-align:center;">
+	<div class="span6 sect">
+		<h2>Blog</h2>
+		<p>
+			<% for document in @getCollection('posts').toJSON(): %>
+				<li id="listed_post"> <!--<span>Date: </span> -->
+				<a class="blog-title" href="<%= document.url %>"><%= document.title %></a></li>
+			<% end %>
+		</p>
+	</div>
+	<div class="span6 sect pull-right">
+		<h2>Hacker-Space</h2>
+		<p>A 4 car-bay, 2-story garage. Hacker-space yet to be initialized. </p>
+		<p><a class="btn btn-warning" href="mailto:mike@subset3.com">Help Out</a></p>
+	</div>
+</div>
