@@ -29,20 +29,31 @@
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
     -->
 
+
+    <style type="text/css">
+		@-moz-document url-prefix() {
+		    .sub-icon{
+			    top 14px
+			    margin 0px 0px 0px -1px
+			}
+		}
+	</style>
+
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
 	<!-- Styles -->
-	<%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css","/styles/style.css"]).toHTML() %>
+	<%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap-min.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css","/styles/style.css"]).toHTML() %>
 </head>
 <body>
 	<!-- Markup -->
+	<a href="https://github.com/MassDistributionMedia/SubSet3.com"><img class="github-fork" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork on GitHub"></a>
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a class="brand" href="/">Super-Human.me </a><span class="mute beta">beta</span>
+				<a class="brand" href="/"><span class="icon-logo"><span class="sub-icon">&sub;</span><span class="sup-icon">&sup;</span></span> SubSet 3 </a><span class="beta">beta</span>
 				<!--
 				<ul class="nav">
 					<% for document in @getCollection('pages').toJSON(): %>
@@ -53,8 +64,8 @@
 				</ul>
 			-->
 			<!-- Twitter Facebook links -->
-			<a class="pull-right social-link" href="https://www.facebook.com/SuperHumanme" title="Super-Human.me Facebook" target="_blank">Facebook</a>
-			<a class="pull-right social-link" href="https://twitter.com/Supe_Human_me" title="Super-Human.me Twitter" target="_blank">Twitter</a>
+			<a class="pull-right social-link" href="https://www.facebook.com/pages/Subset-3/155316667972750" title="Super-Human.me Facebook" target="_blank">Facebook</a>
+			<a class="pull-right social-link" href="https://twitter.com/SubSet_3" title="Super-Human.me Twitter" target="_blank">Twitter</a>
 			<span id="tweet" class="pull-right social-link head-tweet">
                 <% for tweet in @feedr.feeds.twitter: %>
                     <% continue  if tweet.in_reply_to_user_id %>
@@ -79,7 +90,7 @@
 					try{window.CloudFlare||function(){var a=window.document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];window.CloudFlare=[];b.type="text/javascript";b.async=!0;b.src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js";a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a(["cloudflare/badge"])})}catch(e$$5){try{console.error("CloudFlare badge code could not be loaded. "+e$$5.message)}catch(e$$6){}};
 					//]]>
 				</script>
-				&copy;2013 Super-Human.me <span class="mute">beta</span>
+				&copy;2013 SubSet 3 <span class="">beta</span>
 			</span>
 			<span class="pull-right mdm">
 				<a href="http://massdistributionmedia.com/">A MDM Company</a>. <br/>

@@ -7,7 +7,7 @@ docpadConfig = {
 	    feedr:
 	        feeds:
 	            twitter:
-	                url: "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=Supe_Human_me&count=1&include_entities=true&include_rts=true"
+	                url: "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=SubSet_3&count=1&include_entities=true&include_rts=true"
 
 	# =================================
 	# Template Data
@@ -19,30 +19,35 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://super-human.me"
+			url: "http://subset3.com"
+
+			services:
+	            facebookLikeButton:
+	            	applicationId: ''
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
+				'subset3.org'
 			]
 
 			# The default title of our website
-			title: "Super Human Me"
+			title: "SubSet 3"
 
 			# The website description (for SEO)
 			description: """
-				Super-Human Me. Health blog about super-foods and super-humans.
+				Hacker-Space and blog.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				Health, super-human, super-foods, super-food
+				Hacker-Space, hackerspace, makerspace, maker-space, outer-space, space, space-hacks
 				"""
 
 			# The website author's name
 			author: "Michael Mooring"
 
 			# The website author's email
-			email: "mike@mdm.cm"
+			email: "mike@subset3.com"
 
 
 

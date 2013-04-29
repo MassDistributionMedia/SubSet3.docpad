@@ -17,7 +17,7 @@ title: 'Home'
 		<p>
 			<% for document in @getCollection('posts').toJSON(): %>
 				<li id="listed_post"> <!--<span>Date: </span> -->
-				<a class="blog-title" href="<%= document.url %>"><%= document.title %></a></li>
+				<a class="blog-title" href="<%= document.url %>"><%= document.title %></a> - <%= document.date.toDateString() %></li>
 			<% end %>
 		</p>
 	</div>
