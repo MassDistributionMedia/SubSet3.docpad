@@ -26,4 +26,9 @@ title: 'Home'
 		<p>A 4 car-bay, 2-story garage. Hacker-space yet to be initialized. </p>
 		<p><a class="btn btn-warning" href="mailto:mike@subset3.com">Help Out</a></p>
 	</div>
+	<div class="span6 sect">
+		<h2>Archive</h2>
+		<p> We're searching the internet to learn of possible CubeSat augments. Here's a archive of some pages that we've gone through: (Coming Shortly) <br/>
+		</p>
+	</div>
 </div>

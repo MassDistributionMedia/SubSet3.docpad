@@ -89,6 +89,8 @@ docpadConfig = {
 		posts: (database) ->
 			database.findAllLive({tags: $has: ['post']}, [date:-1])
 
+		archive: (database) ->
+			database.findAll({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
 	# =================================
 	# DocPad Events

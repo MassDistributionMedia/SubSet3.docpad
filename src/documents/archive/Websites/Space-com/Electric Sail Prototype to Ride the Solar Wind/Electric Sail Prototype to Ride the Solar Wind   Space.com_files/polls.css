@@ -1,0 +1,209 @@
+    #poll_page {
+      width: 574px;
+      padding: 0px;
+      float: left;
+      margin-bottom:15px;
+    }
+    
+    #poll_page .poll_box {
+      width: 592px;
+      margin: 0px;
+      border: none;
+      background: white;
+      color:#000;
+    }
+    #poll_page .poll_box .poll_question{ font-size:18px !important; }
+    #poll_page .poll_box .poll_options .pointer{ font-size:14px; }
+
+    .poll_box {
+      float:left;
+      padding: 13px;
+      margin-bottom: 10px;
+      background-color: #EEE; /* Fallback if gradients don't work on the users browser */
+      /* Gradient Backgrounds */
+          /* Safari 4-5, Chrome 1-9 */
+          background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CFCFCF), to(#EEE));
+      
+          /* Safari 5.1, Chrome 10+ */
+          background: -webkit-linear-gradient(top, #EEE, #CFCFCF);
+          
+          /* Firefox 3.6+ */
+          background: -moz-linear-gradient(top, #EEE, #CFCFCF);
+      
+          /* IE 10 */
+          background: -ms-linear-gradient(top, #EEE, #CFCFCF);
+          
+          /* Opera 11.10+ */
+          background: -o-linear-gradient(top, #EEE, #CFCFCF);
+          
+      /* Rounded Corners */    
+        border-radius:10px;
+        -moz-border-radius: 10px;  
+        -khtml-border-radius: 10px;  
+        -webkit-border-radius: 10px;    
+    }
+
+    .poll_question {
+      font-weight: bold;
+      font-size: 14px;
+      /*background-color:#e4e4e4;*/
+      padding:5px 0px !important;
+      /* Rounded Corners
+        -moz-border-radius: 5px;  
+        -khtml-border-radius: 5px;  
+        -webkit-border-radius: 5px;  */       
+    }
+
+    .poll_box > div {
+      padding: 2px;
+      margin: 0px;
+    }
+
+    .poll_box .poll_options {
+      margin: 10px 0px 20px 15px;
+      font-size: 18px !important;
+    }
+    .poll_results{
+      margin:10px 0px;
+    }
+    .poll_box > div ol {
+      padding: 10px 0px;
+      margin: 0px;
+    }
+
+    .poll_box > div ol li {
+      margin-left: 1px;
+      font-size: 14px;
+      list-style-type: none;
+      padding-top: 2px;
+      padding-bottom: 7px;
+      color:#000;
+    }
+    
+    #poll_page .poll_box > div ol li {
+      color:#000;
+      padding-bottom: 7px;
+    }
+
+    .poll_box > .poll_bottom_links {
+      text-align: right;
+    }
+    
+    .poll_box > .poll_bottom_links a {
+      font-size: 9px;
+      color: black; 
+    }
+
+    .poll_box .result {
+      margin: 3px 0px;
+      padding: 0px;
+    }
+
+    .poll_box .bar {
+      background-color: #999;
+      margin: 0px;
+      padding: 0px;
+      height: 15px;
+    }
+    .results_bar{
+      width:100%; 
+      float:left;
+      background-color:#FFF;
+      margin:5px 0px 15px;
+      border-radius:3px;
+      -moz-border-radius: 3px;  
+      -khtml-border-radius: 3px;  
+      -webkit-border-radius: 3px;  
+      border: 1px solid #000; 
+    }
+    .poll_box .on_poll_results,
+    .poll_box .on_poll_options {
+      display: none;
+      background-color:#727f6e;
+      padding:3px 5px 3px 0;
+      /* Rounded Corners */ 
+      border-radius:5px;   
+        -moz-border-radius: 5px;  
+        -khtml-border-radius: 5px;  
+        -webkit-border-radius: 5px;    
+    }
+    .poll_box .on_poll_results{ font-size:9px !important; }
+    .on_poll_options {
+      float:left;
+      width: 98%;
+      font-size:9px;
+    }
+    .poll_box .on_poll_results a,
+    .poll_box .on_poll_options a {
+      text-decoration:none;
+      color:#FFF;
+    }
+    
+    .poll_box .on_poll_results a:hover,
+    .poll_box .on_poll_options a:hover {
+      text-decoration:underline;
+      color:#EAF1FB;
+    }
+    
+    .poll_box .poll_success_message {
+      padding-bottom: 4px;
+      font-weight: bold;
+      color: #00467F;
+      font-size: 13px;
+    }
+    
+     #poll_page .poll_box .poll_success_message {
+      color: #000;
+    }
+
+    .poll_box .poll_error_message {
+      padding-bottom: 4px;
+      font-weight: bold;
+      color: red;
+      font-size: 13px;
+    }
+
+    .pointer {
+      cursor: pointer;
+      font-size:12px;
+      line-height:15px;
+    }
+    
+    .poll_box .total_votes {
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+    
+    .poll_box .polls_links {
+      float:right;
+      margin-right:20px;
+    }
+
+    .poll_box .poll_bottom_links a {
+      margin-left: 10px;
+    }
+
+    .poll_box .polls_links a {
+      color: #C4CDE0;
+      text-decoration: none;
+    }
+
+    .poll_box .polls_links a:hover {
+      color: #EAF1FB;
+      text-decoration: none;
+    }
+
+    .radio_unselected {
+      float:left;
+      background-image: url('/images/site/poll/not-selected.png');
+      background-repeat:no-repeat;
+      width:26px;
+      height:26px;
+      margin-right:5px;
+    }
+    .radio_unselected:hover {
+      background-image: url('/images/site/poll/selected.png');
+      background-repeat:no-repeat;
+    }
+    .answer_display{ width:auto; float:left; }
