@@ -22,8 +22,15 @@ docpadConfig = {
 			url: "http://subset3.com"
 
 			services:
-	            facebookLikeButton:
-	            	applicationId: ''
+				facebookLikeButton:
+					applicationId: '455533301199949'
+				facebookFollowButton:
+					applicationId: '455533301199949'
+					username: 'mikeumus'
+				twitterTweetButton: 'subset_3'
+				twitterFollowButton: 'subset_3'
+				githubFollowButton: 'mikeumus'
+
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
