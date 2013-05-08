@@ -54,7 +54,7 @@
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a class="brand" href="/"><span class="icon-logo"><span class="sub-icon">&sub;</span><span class="sup-icon">&sup;</span></span> SubSet 3 </a><span class="beta">beta</span>
+				<a class="brand" href="/"><span class="icon-logo"><span class="sub-icon">&sub;</span><span class="sup-icon">&sup;</span></span> Subset 3 </a><span class="beta">beta</span>
 				<ul class="nav">
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
@@ -73,7 +73,7 @@
 				<% for tweet in @feedr.feeds.twitter: %>
 					<% continue  if tweet.in_reply_to_user_id %>
 						<span datetime="<%=tweet.created_at%>" class="pull-left">
-							<a class="twitter_link" href="https://twitter.com/#!/<%=tweet.user.screen_name%>/status/<%=tweet.id_str%>" title="View on Twitter">
+							<a class="twitter_link" href="https://twitter.com/#!/<%=tweet.user.screen_name%>/status/<%=tweet.id_str%>" target="_blank" title="View on Twitter">
 								<%=tweet.text%>
 							</a>
 						</span>
