@@ -3,6 +3,7 @@ title: A Penny Please
 layout: post
 tags: ['intro','post', 'NASA-budget-cuts', 'NASA', 'space']
 icons: ['headphones','file'] 
+popovers: ['A article in response to Penny4NASA & FightForSpace.com suggesting the wisdom from the book "How to Win Friends and Influence People" as a must-read to be successful in any polical endeavor. By Mikeumus.']
 ---
 By: Michael D Mooring
 

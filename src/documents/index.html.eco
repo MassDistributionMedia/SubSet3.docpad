@@ -20,14 +20,15 @@ title: 'Home'
 			<% for icon in post.icons or []: %>
 				<i class="icon-<%= icon %>"></i>
 			<% end %>
-			<a class="blog-title" href="<%= post.url %>"><%= post.title %></a> - <%= post.date.toDateString() %></li>
+			<% for popover in post.popovers or []: %>
+			<a id="blog-title" class="blog-title" data-content="<%= popover %>" href="<%= post.url %>"><%= post.title %></a> <% end %> - <%= post.date.toDateString() %></li>
 		<% end %>
 		</p>
 	</div>
 	<div class="span6 sect pull-right">
-		<h2>Hacker-Space<sup><a href="#" id="hack-wiki"rel="popover" data-content="A hackerspace (also referred to as a hacklab, makerspace, or hackspace) is a community-operated physical space where people with common interests, often in computers, technology, science, digital art or electronic art, can meet, socialise and/or collaborate."><i class="icon-info-sign"></i></a></sup></h2>
+		<h2>Hacker-Space<sup><a href="#" id="hack-wiki" rel="popover" data-content="A hackerspace (also referred to as a hacklab, makerspace, or hackspace) is a community-operated physical space where people with common interests, often in computers, technology, science, digital art or electronic art, can meet, socialise and/or collaborate."><i class="icon-info-sign"></i></a></sup></h2>
 		<p>A 4 car-bay, 2-story garage. Hacker-space yet to be initialized. </p>
-		<p><a target="_blank" href="#" id="donate-home-popover" class="btn btn-success" data-content="Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you." data-placement="bottom">Donate <i class="icon-heart"></i></a><a id="help-home-popover" class="btn btn-warning" href="mailto:mike@subset3.com" data-content="Email mike@subset.com to see how you can get hands on to get this hackerspace online." data-placement="bottom">Help Out <i class="icon-wrench"></i></a></p>
+		<p><a target="_blank" href="http://www.kickstarter.com/projects/1034732745/1189262801?token=ea7be236" id="donate-home-popover" class="btn btn-success" data-content="Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you." data-placement="bottom">Kickstarter <i class="icon-heart"></i></a><a id="help-home-popover" class="btn btn-warning" href="mailto:mike@subset3.com" data-content="Email mike@subset.com to see how you can get hands on to get this hackerspace online." data-placement="bottom">Help Out <i class="icon-wrench"></i></a></p>
 	</div>
 	<div id="tech-courses-home" class="span6 sect pull-left clear">
 		<h2>Tech Courses</h2>

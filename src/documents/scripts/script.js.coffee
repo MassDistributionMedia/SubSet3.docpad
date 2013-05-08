@@ -1,5 +1,5 @@
 $ ->
-	$("#hack-wiki, #hello-world_wiki, #donate-home-popover, #help-home-popover").popover()
+	$("#hack-wiki, #hello-world_wiki, #donate-home-popover, #help-home-popover, #blog-title").popover()
 
 	$(window).scroll ->
 		if $(this).scrollTop() > 77

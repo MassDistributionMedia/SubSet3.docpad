@@ -3,6 +3,7 @@ title: Dude, Where's my SpaceShip?
 layout: post
 tags: ['post', 'NASA-budget-cuts', 'NASA', 'space', 'DIY', 'cubesat', 'private-space', 'private-space-industry']
 icons: ['headphones','file'] 
+popovers: ['A article in response to Penny4NASA & FightForSpace.com about Private vs. Public Space Inudstry and which to focus on. By Mikeumus.']
 ---
 By: Michael D Mooring
 

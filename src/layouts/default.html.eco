@@ -22,7 +22,7 @@
 	<meta name="viewport" content="width=device-width" />
 
 	
-	<link rel="shortcut icon" href="img/icon-logo_subset3_transparent.png">
+	<link rel="shortcut icon" href="http://subset3.com/img/icon-logo_subset3_transparent.png">
 	<!-- Icons
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
@@ -62,7 +62,7 @@
 						</li>
 					<% end %>
 					<li>
-						<a target="_blank" href="#" id="donate-home-popover" data-content="Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you." data-placement="bottom">Donate</a>
+						<a target="_blank" href="http://www.kickstarter.com/projects/1034732745/1189262801?token=ea7be236" id="donate-home-popover" data-content="Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you." data-placement="bottom">Kickstarter</a>
 					</li>
 				</ul>
 			

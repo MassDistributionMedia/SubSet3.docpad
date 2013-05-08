@@ -2,7 +2,8 @@
 title: Solar System Express Interview
 layout: post
 tags: ['post', 'Solar-System-Express','Space-Diving', 'Sol-X', 'NASA', 'space', 'DIY', 'cubesat', 'private-space', 'private-space-industry', 'DSi', 'Deep-Space-Industries', 'DIY-Rocket-Contest', 'Open-Space-University']
-icons: ['facetime-video','file'] 
+icons: ['facetime-video','file']
+popovers: ['A audio interview with Sol-X, a space hardware startup. We discuss 3D Printing on Earth and in Space and the DIY Rocket Contest. By Mikeumus.']
 ---
 By: Michael D Mooring
 
