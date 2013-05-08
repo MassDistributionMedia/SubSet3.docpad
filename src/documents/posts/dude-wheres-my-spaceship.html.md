@@ -1,7 +1,8 @@
 ---
 title: Dude, Where's my SpaceShip?
 layout: post
-tags: ['intro','post', 'NASA-budget-cuts', 'NASA', 'space', 'DIY', 'cubesat', 'private-space', 'private-space-industry']
+tags: ['post', 'NASA-budget-cuts', 'NASA', 'space', 'DIY', 'cubesat', 'private-space', 'private-space-industry']
+icons: ['headphones','file'] 
 ---
 By: Michael D Mooring
 

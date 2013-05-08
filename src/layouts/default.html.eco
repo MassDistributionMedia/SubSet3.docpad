@@ -55,18 +55,21 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<a class="brand" href="/"><span class="icon-logo"><span class="sub-icon">&sub;</span><span class="sup-icon">&sup;</span></span> SubSet 3 </a><span class="beta">beta</span>
-				<!--
+				
 				<ul class="nav">
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
 							<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
 						</li>
 					<% end %>
+					<li>
+						<a target="_blank" href="#" id="donate-home-popover" data-content="Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you." data-placement="bottom">Donate</a>
+					</li>
 				</ul>
-			-->
+			
 			<!-- Twitter Facebook links -->
+			<a class="pull-right social-link" href="https://twitter.com/SubSet_3" title="Super-Human.me Twitter" target="_blank" style="margin: 0 232px 0 0;">Twitter</a>
 			<a class="pull-right social-link" href="https://www.facebook.com/pages/Subset-3/155316667972750" title="Super-Human.me Facebook" target="_blank">Facebook</a>
-			<a class="pull-right social-link" href="https://twitter.com/SubSet_3" title="Super-Human.me Twitter" target="_blank">Twitter</a>
 			<span id="tweet" class="pull-right social-link head-tweet">
                 <% for tweet in @feedr.feeds.twitter: %>
                     <% continue  if tweet.in_reply_to_user_id %>
@@ -79,6 +82,7 @@
             </span>
 			</div>
 		</div>
+		<span class="btn close-header"><i class=" icon-remove-circle"></i></span>
 	</div>
 	<div class="container">
 		<section id="content" class="content">
@@ -101,6 +105,6 @@
 	</div><!-- /container -->
 
 	<!-- Scripts -->
-	<%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/log.js","/vendor/modernizr.js","/scripts/script.js"]).toHTML() %>
+	<%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/twitter-bootstrap/js/bootstrap-min.js","/scripts/script.js"]).toHTML() %>
 </body>
 </html>

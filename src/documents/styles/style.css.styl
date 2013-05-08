@@ -2,25 +2,56 @@ header a, header a:link, footer a, footer a:link
 	color #fff
 	cursor pointer
 
-.social-link a, .social-link a:link, .blog-title
+.social-link a, .social-link a:link
 	color orange
+	right 3px
+	width 333px
+	text-align right
+	float right
+	margin -30px -80px 0 0
+
+.blog-title, a
+	color rgb(29, 0, 255)
 
 header a:hover, footer a:hover
 	color greenyellow
 
 body
 	padding-top 55px
-	background url('/img/streak.png') CENTER
+	background url('/img/streak.png') center
 
 .content
 	margin-bottom 33px
 	margin-top 7px
+
+.clear
+	clear both
 
 .container .content
 	margin 21px auto
 
 .blog-title
 	font-size 17px
+
+.comments input, .comments textarea
+	width 100%
+
+.social-buttons
+	position fixed
+	top 111px
+	left 1px
+
+#hello-world_wiki i
+	margin-bottom 11px
+
+#tech-courses-home li
+	color rgb(255, 112, 0)
+
+.blog-home i
+	opacity: 0.7;
+
+li
+	list-style none
 
 .icon-logo
 	width 24px
@@ -32,7 +63,7 @@ body
 	border 0
 
 .sub-icon
-	position: absolute;
+	position absolute
 	top 11px
 	margin 0 0 0 -3px
 
@@ -45,10 +76,19 @@ table
 			border-top 1px solid #DDD
 
 .navbar .brand
-	color #fff
+	color lime
+
+.close-header
+	position fixed
+	opacity 0
+	top 1px
+	left 15px
 
 .navbar .navbar-inner
 	height 33px
+
+.navbar .nav
+	margin 3px 0 0 13px
 
 .navbar-inner
 	background #072b07
@@ -58,11 +98,14 @@ table
 .hero-unit
 	padding 44px 60px
 
-.hero-unit, .sect, .post
+.hero-unit, .sect, .post, .page
 	background-color #FAF6ED
 	-webkit-border-radius 6px
 	-moz-border-radius 6px
 	border-radius 6px
+
+.page
+	padding 33px
 
 .sect, .post
 	padding 13px
@@ -88,14 +131,17 @@ footer
 	color #ccc
 
 .social-link
-	opacity .7
+	color lightblue
 	padding 7px
-
-.social-link:hover
-	opacity 1
 
 .head-tweet
 	font-weight normal
+
+.twitter_link
+
+
+.tweet a
+	color orange
 
 .mdm
 	text-align right

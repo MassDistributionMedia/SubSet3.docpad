@@ -2,6 +2,7 @@
 title: A Penny Please
 layout: post
 tags: ['intro','post', 'NASA-budget-cuts', 'NASA', 'space']
+icons: ['headphones','file'] 
 ---
 By: Michael D Mooring
 

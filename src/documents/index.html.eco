@@ -5,29 +5,45 @@ title: 'Home'
 
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
-	<h1>Hello World. </h1>
+	<h1>Hello World<sub><a href="#" id="hello-world_wiki"rel="popover" data-content="A 'Hello world' program is a computer program that outputs 'Hello, world' on a display device. Because it is typically one of the simplest programs possible in most programming languages, it is by tradition often used to illustrate to beginners the most basic syntax of a programming language, or to verify that a language or system is operating correctly."><i class="icon-info-sign"></i></a></sub></h1>
 	<p>
 		SubSet 3 is a hackerspace in Hamilton, New Jersey, USA. I also blog much about outer-space. Thank you for stopping by. 
 	</p>
 </div>
 
 <div class="row" style="text-align:center;">
-	<div class="span6 sect">
-		<h2>Blog</h2>
+	<div class="span6 sect pull-left blog-home">
+		<h2>Tech Blog</h2>
 		<p>
-			<% for document in @getCollection('posts').toJSON(): %>
-				<li id="listed_post"> <!--<span>Date: </span> -->
-				<a class="blog-title" href="<%= document.url %>"><%= document.title %></a> - <%= document.date.toDateString() %></li>
+		<% for post in @getCollection('posts').toJSON(): %>
+			<li id="listed_post">
+			<% for icon in post.icons or []: %>
+				<i class="icon-<%= icon %>"></i>
 			<% end %>
+			<a class="blog-title" href="<%= post.url %>"><%= post.title %></a> - <%= post.date.toDateString() %></li>
+		<% end %>
 		</p>
 	</div>
 	<div class="span6 sect pull-right">
-		<h2>Hacker-Space</h2>
+		<h2>Hacker-Space<sup><a href="#" id="hack-wiki"rel="popover" data-content="A hackerspace (also referred to as a hacklab, makerspace, or hackspace) is a community-operated physical space where people with common interests, often in computers, technology, science, digital art or electronic art, can meet, socialise and/or collaborate."><i class="icon-info-sign"></i></a></sup></h2>
 		<p>A 4 car-bay, 2-story garage. Hacker-space yet to be initialized. </p>
-		<p><a class="btn btn-warning" href="mailto:mike@subset3.com">Help Out</a></p>
+		<p><a target="_blank" href="#" id="donate-home-popover" class="btn btn-success" data-content="Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you." data-placement="bottom">Donate <i class="icon-heart"></i></a><a id="help-home-popover" class="btn btn-warning" href="mailto:mike@subset3.com" data-content="Email mike@subset.com to see how you can get hands on to get this hackerspace online." data-placement="bottom">Help Out <i class="icon-wrench"></i></a></p>
 	</div>
-	<div class="span6 sect">
-		<h2>Archive</h2>
+	<div id="tech-courses-home" class="span6 sect pull-left clear">
+		<h2>Tech Courses</h2>
+		<p> The following are some courses we'd like to host once the makerspace is online: <br/>
+			<ul>
+				<li> Node.js Intro </li>
+				<li> HTML/CSS Intro </li>
+				<li> Adobe Photoshop Intro </li>
+				<li> Google Sketch Up Intro </li>
+				<li> Autodesk Inventor Intro </li>
+				<li> Rocket Science Intro </li>
+			</ul>
+		</p>
+	</div>
+	<div class="span6 sect pull-right">
+		<h2>Research Archive</h2>
 		<p> We're searching the internet to learn of possible CubeSat augments. Here's a archive of some pages that we've gone through: (Coming Shortly) <br/>
 		</p>
 	</div>

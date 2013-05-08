@@ -2,6 +2,7 @@
 title: Solar System Express Interview
 layout: post
 tags: ['post', 'Solar-System-Express','Space-Diving', 'Sol-X', 'NASA', 'space', 'DIY', 'cubesat', 'private-space', 'private-space-industry', 'DSi', 'Deep-Space-Industries', 'DIY-Rocket-Contest', 'Open-Space-University']
+icons: ['facetime-video','file'] 
 ---
 By: Michael D Mooring
 
