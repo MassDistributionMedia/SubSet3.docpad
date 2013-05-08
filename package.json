@@ -1,11 +1,18 @@
 {
 	"name": "subset3.docpad",
-	"version": "0.0.1-29",
+	"version": "0.0.1-39",
 	"private": true,
-	"description": "subset3.",
+	"description": "Hackerspace and tech blog.",
 	"homepage": "https://github.com/MassDistributionMedia/subset3.com",
 	"keywords": [
-		"docpad"
+		"docpad",
+		"hackerspace",
+		"makerspace",
+		"DIY",
+		"maker",
+		"inventor",
+		"fablab",
+		"subset3"
 	],
 	"author": "MDM Inc <mike@mdm.cm> (http://mdm.cm)",
 	"maintainers": [
@@ -22,8 +29,7 @@
 		"url": "https://github.com/MassDistributionMedia/subset3.com.git"
 	},
 	"engines": {
-		"node": "0.8.x",
-		"npm": "1.1.x",
+		"node": ">= 0.8.x",
 		"docpad": "6.x"
 	},
 	"dependencies": {
@@ -36,7 +42,7 @@
 		"docpad-plugin-partials": "2.x",
 		"docpad-plugin-stylus": "2.x",
 		"docpad-plugin-text": "2.x",
-		"docpad-plugin-feedr": "2.x",
+		"docpad-plugin-feedr": "2.4.2",
 		"docpad-plugin-nativecomments": "2.x",
 		"docpad-plugin-services": "2.x",
 		"moment": "2.x"
