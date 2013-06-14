@@ -50,7 +50,7 @@
 </head>
 <body>
 	<!-- Markup -->
-	<a href="https://github.com/MassDistributionMedia/SubSet3.com"><img class="github-fork" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork on GitHub"></a>
+	<a href="https://github.com/MassDistributionMedia/SubSet3.com" target="_blank"><img class="github-fork" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork on GitHub"></a>
 	<span class="btn close-header"><i class=" icon-remove-circle"></i></span>
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
