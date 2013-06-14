@@ -10,7 +10,7 @@ layout: default
 		<%- @getFacebookLikeButton() %>
 		<%- @getTwitterTweetButton() %>
 	</span>
-	<%- @getCommentsBlock() %>
+	<%- @getFacebookComments('914') %>
 </article>
 
 <footer>

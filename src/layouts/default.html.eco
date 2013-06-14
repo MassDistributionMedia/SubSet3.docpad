@@ -51,6 +51,7 @@
 <body>
 	<!-- Markup -->
 	<a href="https://github.com/MassDistributionMedia/SubSet3.com"><img class="github-fork" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork on GitHub"></a>
+	<span class="btn close-header"><i class=" icon-remove-circle"></i></span>
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
@@ -67,21 +68,10 @@
 				</ul>
 			
 			<!-- Twitter Facebook links -->
-			<a class="pull-right social-link" href="https://twitter.com/SubSet_3" title="Super-Human.me Twitter" target="_blank" style="margin: 0 232px 0 0;">Twitter</a>
-			<a class="pull-right social-link" href="https://www.facebook.com/pages/Subset-3/155316667972750" title="Super-Human.me Facebook" target="_blank">Facebook</a>
-			<span id="tweet" class="pull-right social-link head-tweet">
-				<% for tweet in @feedr.feeds.twitter: %>
-					<% continue  if tweet.in_reply_to_user_id %>
-						<span datetime="<%=tweet.created_at%>" class="pull-left">
-							<a class="twitter_link" href="https://twitter.com/#!/<%=tweet.user.screen_name%>/status/<%=tweet.id_str%>" target="_blank" title="View on Twitter">
-								<%=tweet.text%>
-							</a>
-						</span>
-				<% end %>
-			</span>
+			<a class="pull-right social-link" href="https://twitter.com/SubSet_3" title="Subset 3 Twitter" target="_blank" style="margin: 0 232px 0 0;">Twitter</a>
+			<a class="pull-right social-link" href="https://www.facebook.com/pages/Subset-3/155316667972750" title="Subset 3 Facebook" target="_blank">Facebook</a>
 			</div>
 		</div>
-		<span class="btn close-header"><i class=" icon-remove-circle"></i></span>
 	</div>
 	<div class="container">
 		<section id="content" class="content">
