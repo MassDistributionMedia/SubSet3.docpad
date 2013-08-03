@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0081)http://wms.assoc-amazon.com/20070822/US/html/searchbox_27.html?t=elegantconsul-20 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   
+      <style type="text/css">
+      body
+      {
+          margin:0;
+          padding:0;
+          font-family:'Verdana', sans-serif;
+          font-size:10px;
+      }
+
+
+      a img
+      {
+          border:none;
+      }
+
+
+      div#outer
+      {
+          /* 1px border means content area must be
+                2px smaller than total size */
+          width:178px;
+          height:148px;
+          border:1px solid #000000;
+          background-color:#ffffff;
+          margin:0;
+          padding:0;
+          position:relative;
+      }
+
+      div#logo
+      {
+          position:absolute;
+          bottom:0;
+          background-color:#000000;
+          width:178px;
+          height:36px;
+          padding:3px 0;
+          border:none;
+          text-align:center;
+      }
+
+      div#logo a
+      {
+          color:#ffffff;
+      }
+
+      form
+      {
+          margin:0;
+          padding:0 5px;
+          white-space:nowrap;
+      }
+
+      form p
+       {
+          margin:7px 0;
+          font-weight:bold;
+      }
+
+      form select
+      {
+          width:168px;
+      }
+
+      form input#field-keywords
+      {
+          width:137px;
+          position:absolute;
+          top:0;
+          left:0;
+        }
+
+      form input#button
+      {
+          position:absolute;
+          top:0;
+          right:0;
+      }
+
+
+  </style>
+  <script type="text/javascript">
+      var config = new function() {
+            this.linkCode = getLinkCode();
+            this.orgUnit = '1';
+            this.defaultTag= 'widgetsamazon-20';
+			this.protocol= window.location.protocol;
+            this.mediaServerPrefix = this.protocol === 'https:' ? 'https://images-na.ssl-images-amazon.com' : 'http://rcm-images.amazon.com';
+            this.amazonURL= this.protocol + '//www.amazon.com/';
+            this.logoImageURL = this.mediaServerPrefix + '/images/G/01/associates/build-links/searchbox-logo-126x32.gif';
+            this.goButtonURL = this.mediaServerPrefix + '/images/G/01/associates/build-links/ap-search-go-btn.gif';
+            this.recordImpressionURL = this.protocol + '//www.assoc-amazon.com';
+            this.logoHeight ='36';
+            this.logoWidth = '126';
+        };
+
+        function getLinkCode() {
+            var partner = getPartner();
+            return partner == 'Blogger' ? 'bsw' : 'wsw';
+        }
+
+        function getPartner() {
+            var queryParams = getQueryParams();
+            return queryParams["Partner"] ? queryParams["Partner"] : null;
+        }
+
+    	function getQueryParams() {
+            var queryParams = new Array();
+            var currentURL = document.location.href;
+            if (currentURL) {
+                var pathParameters = currentURL.split("?");
+                if(pathParameters[1]) {
+                    var nameValuePairs = pathParameters[1].split("&");
+                    for (var i = 0; i < nameValuePairs.length; i++) {
+                        var nameValue = nameValuePairs[i].split("=");
+                        var name = nameValue[0];
+                        queryParams[name] = nameValue[1];
+                    }
+                }
+            }
+            return queryParams;
+        }
+
+        function getTag() {
+            var queryParams = getQueryParams();
+            return queryParams["t"] ? queryParams["t"] : config.defaultTag;
+        }
+
+        function drawLogo() {
+            document.write("<a href='" + config.amazonURL + "?&tag=" + getTag()
+                     + "&linkCode=" + config.linkCode +"&' target='_top'>"
+                    + "<img src='" + config.logoImageURL +"' "
+                    + "height='" +config.logoHeight + "' width='" + config.logoWidth + "' alt='Amazon Logo'/></a>");
+        }
+
+        function writeFields() {
+            document.write("<form action='" + config.amazonURL + "s/' method='get' name='search' target='_top'>");
+            document.write("<input type='hidden' name='tag' value='" + getTag() + "'/>");
+            
+            
+            document.write("<input type='hidden' name='link_code' value='" + config.linkCode + "'/>");
+        }
+
+        function recordImpression() {
+            document.write("<img style='display:none ; border: medium none ; width: 1px; height: 1px;' "
+                    + "src='" + config.recordImpressionURL + "/e/ir?o=" + config.orgUnit + "&t=" + getTag() + "&l=" + config.linkCode +
+                    "'/>");
+         }
+
+        function drawGoButton() {
+            document.write("<input id='button' type='image' value='Go' name='Submit' src='" + config.goButtonURL + "' alt='[Go]'/>");
+        }
+  </script>
+  </head>
+   <body>
+       <div id="outer">
+       <script type="text/javascript">
+            writeFields();
+        </script><form action="http://www.amazon.com/s/" method="get" name="search" target="_top"><input type="hidden" name="tag" value="elegantconsul-20"><input type="hidden" name="link_code" value="wsw">
+       <input type="hidden" name="_encoding" value="UTF-8">
+       <p>Search Amazon.com:</p>
+             <select name="search-alias">
+                <script type="text/javascript" src="q(1)">
+                </script><option selected="" value="aps">Amazon.com</option> <option value="amazontv">Amazon Instant Video</option> <option value="apparel">Apparel &amp; Accessories</option> <option value="appliances">Appliances</option> <option value="arts-crafts">Arts, Crafts &amp; Sewing</option> <option value="automotive">Automotive</option> <option value="baby-products">Baby</option> <option value="beauty">Beauty</option> <option value="stripbooks">Books</option> <option value="photo">Camera &amp; Photo</option> <option value="mobile">Cell Phones &amp; Accessories</option> <option value="classical">Classical Music</option> <option value="pc-hardware">Computers</option> <option value="dvd">DVD</option> <option value="electronics">Electronics</option> <option value="na-collectibles-us">Entertainment Collectibles</option> <option value="videogames">Game Downloads</option> <option value="gift-cards">Gift Cards</option> <option value="grocery">Grocery &amp; Gourmet Food</option> <option value="garden">Home &amp; Garden</option> <option value="hpc">Health &amp; Personal Care</option> <option value="industrial">Industrial &amp; Scientific</option> <option value="jewelry">Jewelry</option> <option value="digital-text">Kindle Store</option> <option value="kitchen">Kitchen &amp; Housewares</option> <option value="magazines">Magazine Subscriptions</option> <option value="misc">Miscellaneous</option> <option value="digital-music">MP3 Downloads</option> <option value="popular">Music</option> <option value="mi">Musical Instruments</option> <option value="office-products">Office Products</option> <option value="pets">Pet Supplies</option> <option value="na-lawngarden-us">Patio, Lawn &amp; Garden</option> <option value="shoes">Shoes</option> <option value="software">Software</option> <option value="na-collectibles-us">Sports Collectibles</option> <option value="sporting">Sports &amp; Outdoors</option> <option value="tools">Tools &amp; Hardware</option> <option value="toys-and-games">Toys &amp; Games</option> <option value="vhs">VHS</option> <option value="videogames">Video Games</option> <option value="watches">Watches</option> 
+             </select>
+        <p>Keywords:</p>
+           <div style="position:relative; width:168px;">
+               <input id="field-keywords" name="field-keywords" type="text" size="18">
+                <script type="text/javascript">
+                    drawGoButton();
+                </script><input id="button" type="image" value="Go" name="Submit" src="ap-search-go-btn.gif" alt="[Go]">
+           </div>
+       </form>
+       <script type="text/javascript">
+        recordImpression();
+        </script><img style="display:none ; border: medium none ; width: 1px; height: 1px;" src="ir">
+            <div id="logo">
+                <script type="text/javascript">
+                     drawLogo();
+                </script><a href="http://www.amazon.com/?&tag=elegantconsul-20&linkCode=wsw&" target="_top"><img src="searchbox-logo-126x32.gif" height="36" width="126" alt="Amazon Logo"></a>
+            </div>
+       </div>
+   
+
+
+
+</body></html>

@@ -1,0 +1,35 @@
+#top_side{
+  top: -33px;
+  border: 1px solid black;
+  position: fixed;
+  height: 30px;
+  color: white;
+  text-align: left;
+  vertical-align: middle;
+  left: 0px;
+  width: 100%;
+  z-index: 100000;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* IE6 Hack - Start */
+html, body {  
+  _height: 100%;
+  _overflow: hidden;
+}
+.ie6_wrapper {
+  _position: relative;
+  _width: 100%;
+  _height: 100%;
+  _overflow: auto;
+}
+#top_side {
+  /*_top: 0px;  Remove if you want slider effect in IE6 */
+  _width: 100px; 
+  _position: absolute;
+}
+/* IE6 Hack - End */

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>SubSet 3</title>
+	<link href="http://subset3.com/atom.xml" rel="self"/>
+	<link href="http://subset3.com"/>
+	<updated>2013-08-03T05:37:37.063Z</updated>
+	<id>http://subset3.com</id>
+	<author>
+		<name>Michael Mooring</name>
+		<email>mike@subset3.com</email>
+	</author>
+
+	
+		<entry>
+			<title>Solar System Express Interview</title>
+			<link href="http://subset3.com//posts/solar-system-express-interview"/>
+			<updated>2013-05-08T19:51:38.000Z</updated>
+			<id>http://subset3.com//posts/solar-system-express-interview</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Solar System Express Interview | SubSet 3&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Hacker-Space and blog.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;Hacker-Space, hackerspace, makerspace, maker-space, outer-space, space, space-hacks&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Michael Mooring&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;http://subset3.com/img/icon-logo_subset3_transparent.png&quot;&gt;
+	&lt;!-- Icons
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;
+    --&gt;
+
+
+	&lt;style type=&quot;text/css&quot;&gt;
+		@-moz-document url-prefix() {
+			.sub-icon{
+				top 14px
+				margin 0px 0px 0px -1px
+			}
+		}
+	&lt;/style&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;!-- Markup --&gt;
+	&lt;a href=&quot;https://github.com/MassDistributionMedia/SubSet3.com&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;github-fork&quot; src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png&quot; alt=&quot;Fork on GitHub&quot;&gt;&lt;/a&gt;
+	&lt;span class=&quot;btn close-header&quot;&gt;&lt;i class=&quot; icon-remove-circle&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+	&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+		&lt;div class=&quot;navbar-inner&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;&lt;span class=&quot;icon-logo&quot;&gt;&lt;span class=&quot;sub-icon&quot;&gt;&amp;sub;&lt;/span&gt;&lt;span class=&quot;sup-icon&quot;&gt;&amp;sup;&lt;/span&gt;&lt;/span&gt; Subset 3 &lt;/a&gt;&lt;span class=&quot;beta&quot;&gt;beta&lt;/span&gt;
+				&lt;ul class=&quot;nav&quot;&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/startup-budget-outline&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/startup-budget-outline&quot; property=&quot;dc:title&quot;&gt;Startup Budget Outline&lt;/a&gt;
+						&lt;/li&gt;
+					
+					&lt;li&gt;
+						&lt;a target=&quot;_blank&quot; href=&quot;http://www.kickstarter.com/projects/1034732745/1189262801?token=ea7be236&quot; id=&quot;donate-home-popover&quot; data-content=&quot;Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you.&quot; data-placement=&quot;bottom&quot;&gt;Kickstarter&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			
+			&lt;!-- Twitter Facebook links --&gt;
+			&lt;a class=&quot;pull-right social-link&quot; href=&quot;https://twitter.com/SubSet_3&quot; title=&quot;Subset 3 Twitter&quot; target=&quot;_blank&quot; style=&quot;margin: 0 232px 0 0;&quot;&gt;Twitter&lt;/a&gt;
+			&lt;a class=&quot;pull-right social-link&quot; href=&quot;https://www.facebook.com/pages/Subset-3/155316667972750&quot; title=&quot;Subset 3 Facebook&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Solar System Express Interview&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;By: Michael D Mooring&lt;/p&gt;
+&lt;iframe class =&quot;center-post&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/vXi0DmcZWNc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I had the pleasure to interview Blaze, Paul, and Kunal of &lt;a href=&quot;http://www.solarsystemexpress.com/&quot; target=&quot;_blank&quot;&gt;Sol-X&lt;/a&gt; where we talked about the &lt;a href=&quot;http://www.openspaceuniversity.org/#!rocketchallenge/c22xk&quot; target=&quot;_blank&quot;&gt;DIY Rocket Contest&lt;/a&gt; which Sol-X is part of. The contest is to design a open-source 3D printed, steel (in Sol-X&amp;#39;s instance, full-strength Titanium) rocket engine to be compatible with nanosatellites like CubeSats. We talked about what 3D printing means for the future of space-tech, Sol-X&amp;#39;s other exciting projects like their first product, the &lt;a href=&quot;http://www.solarsystemexpress.com/gravity-development-board.html&quot; target=&quot;_blank&quot;&gt;Gravity Development Board&amp;quot;&lt;/a&gt; and their &lt;a href=&quot;http://www.solarsystemexpress.com/space-skydiving.html&quot; target=&quot;_blank&quot;&gt;Space Diving Suit&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;The following is the raw transcript from our chat:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[Techno Intro Music] Hello Everybody, This is Michael Mooring with Subset 3, The Hackerspace blog and we are here with Blaze, Kunal and Paul of Solar Express and we’re here to have a little chat with them. So I guess can you guys, can you tell me a little about what Sol-X is and what you guys do? Yeah sure so Sol-X was started back in 2010 after my internship and civil-servant position at Marshall Space Flight Center in Huntsville, Alabama. Government space does a lot of cool thing in research and development but I kind of felt like there was a cheaper, faster and more risky way of getting people into space at low costs. And so basically Sol-X was started up around that: Enabling Space Innovations in people garages around the world and our core product really is the gravity development board which we hope to be the world&amp;#39;s first space rated, open-hardware, electronic prototyping board which will enable people of any type to build space qualified hardware. Cool, and you guys were founded by yourself Blaze in 2010 right? Yeah that’s correct, yup. I started it myself in 2010 and the first year was a lot of different research into different products and we narrowed it down over the years to what we feel has the strongest business case. Cool, so you mentioned the gravitational board and I think there’s one, you&amp;#39;re also working on another project the space dive suit, it that correct? Yeah, it’s more of a R &amp;amp; D project right now. Our focus really is to get the Gravity Development Board to market, but we’re getting paid for consulting work with Juxtopia to develop the augmented reality element of the space skydiving suit. So with things like the DIY Rocket Competition we continue to put a little bit of time into the space skydiving suit as well. And I don’t know if I’m pronouncing it correctly, but Juxtopia, so that’s going to kind of be like a simulation slash game that you can kind of experience what a space dive might be like, in real life. Juxtopia is the name of a company based in Baltimore, Maryland. They’re a bio-medical start-up and they came up with the idea and pretty much pitched augmented reality, see-through, see-through displays to the US Military and it’s kind of what formed Google Glass. The idea that Juxtopia initially pitched back in, I think it was 2004 or 5. Don’t quote me on that but they really built the architecture and idea of augmented reality. That’s interesting. Yeah I got it mixed up. I was reading something a space diving game you guys were mentioning I think in some of the YouTube videos. And you guys are also part of the DIY Rocket Contest with the Open Space University and so that. That’s a new event basically you heard about that through Space Vid Cast which is something that we watch often and really that is also about open innovation in space and so and that’s why it’s so very interesting to us. It’s basically, get as many people collaborating together on open-space, on open-hardware basically and try to design a rocket engine that will work and so that’s what we’re doing. Yeah the the contest is basically designing a open-source 3D printed rocket [engine] for smaller nanosatellite type of space objects and I never knew before that you could actually 3D print steel or in your case you guys are using titanium I think right? Yeah so while I was at Marshall Space Flight Center I got introduced to the 3D printing facility down there. I had a lunar worm-bot auger made in the facility and so we have connections to be able to print in full strength titanium basically we can print at 99% strength as compared to just regular machine titanium so. Speaking of 3D printing, over the last, maybe like 3 years, 3D printing has really taken a lot of, it’s really grown a lot, it’s still pretty new but just today in-fact, I think it was today or yesterday, we had distributed defence or Defence Distributed they release a video of their single shot 3D printed gun and that’s kind of you know, they have a very political stance but what do you think of 3D printing in the context of the future of space because we know that Deep Space Industries, they have their patent, and it’s around basically taking a asteroid, mining it and 3D printing it into you know maybe even things like you know the rocket engines that you guys are designing now. So what do you think, how do you think 3D printing is going to shape space technology in the next 5 to 10 years? Yeah like you mentioned Deep Space Industries and another company called Made In Space have done so research in printing in zero G and the biggest benefit really is spare parts. One of the main reasons space missions have to carry so much equipment and things like that is in-case things break down your all you&amp;#39;re out there all by yourself so when you&amp;#39;re on Mars or if you&amp;#39;re just in a space station on your way to Mars, being able to print an extra bolt or a wrench that you need to fix something could be a huge benefit and also it allows you to pack the material much tighter so you just bring fine grain steel in a bucket-shaped device and when you need a wrench or you need a bolt you 3D print it. You can also recycle that material that means that when you&amp;#39;re done with that stuff you put it back and you can reuse it again. So, space is all about mass and being able to and being able to pack stuff tightly so those are two huge benefits. Yeah, efficiency. Speaking of DSi you&amp;#39;re on a engineering board, is that correct? Part of. That is correct. Yeah we can’t speak too much about it because it hasn’t been publicly released yet. Okay. but they have a small group of engineering advisors that they’re looking, that they’re using start the company up. Yeah. So a little bit of a loaded question I guess but DSi versus Planetary Resources. Or do you think there’s room, you think they’ll both make it? Because basically, there’s been a lot of you know, private space in the past, a lot of, rocket companies, in the past. It’s basically been some investors putting money into the company but they kind of fell apart because they didn’t really put themselves into the company and you see companies like SpaceX and Virgin Galactic and especially SpaceX. Elon Musk personally knows, you know he’s hand on with a lot of what goes on, and that I think that’s attributed to SpaceX’s success but you know DSi and and you know there’s probably one hundred plus space companies that have came out came out in the last maybe 5 years. So, what do you think how successful do you think they’re going to be in meeting their timelines and, because space mining is it’s going to be the you know the most challenging that has ever been done in human history so far, so what do you what do you think their future is like basically? Yeah I think there’s room for both of them. That’s kind of what defines a market is having more than one company and I think that they are using slightly different approaches. They’re kind of an Apple versus PC kind of comparison. I think Planetary Resources, Planetory, Planetary Resources is more like Apple. I think Deep Space Industries will become more like the PC of the mining, mining asteroid industry. The Planetary Resources is looking after, looking at telescope technology to be used down on earth and Deep Space Industries is more the re-usable material, grinding up of asteroids and producing rocket fuel from the water that they find so I think they have different paths forward and both can be successful. Yeah. Yeah I think I think so too. I think there’s room for both of them. So going back to the DIY Rocket Contest, the rocket that you guys are producing through Sol-X, do you guys have intentions to sell printed versions of rocket one it’s ready and tested and would that be also through your connection, would that also be titanium or how, how are you going to go about that? Yeah we absolutely want to sell them. That’s kind of the reason for developing the project at all. We think that the CubeSat industry is one of the three markets that we’re going after. We also have internal uses of the rocket itself, but it’s. We will print it in titanium but also in lower cost material called z, z, z-printer. So it’s a material called Z-150. We’ve already currently printed the aerospike engine in that material, it’s kind of a ceramic material and it only costs about $40 so people and start-ups can do basic testing with that. You won’t able to light the engine but like we’ve done, you’ll be able to do compression at about 70 psi those ceramic parts. So there’s a staged approach that we’ll be able to sell it to people doing prototypes and also long term and in full scale metal versions. Cool, and speaking of CubeSat you mentioned the industry is growing. Where do you think it’s, where do you think CubeSats are headed? There’s the project I think it’s QB50. They’re going to release 50 of them [CubeSats] to do weather reconnaissance. And DARPA’s going to be, DARPA’s actually coming out with their own program called ALASA I think it is and basically they’re getting ready to CubeSat payloads and they’re gearing up for, in their presentation they’re basically speak of how the CubeSat market is picking up and they’re developing this payload launch system to get ready for, and it’s air-to-orbit launch system. So, if you know, DARPA’s getting ready for it, and obviously more, it’s happening more and more launches every year. How do you think CubeSats are going to evolve basically? What do you see for the standard in the future? Like you said you have many people using them, Deep Space Industries, ArduSat is using CubeSats as really a throw-away technology that enables low cost spacecraft. I think they want to actually keep the standard pretty set. Right now there’s 1, 3 and like 5U. Those are basically units. That you can have. I think it will eventually grow to slightly larger satellites, but the real key benefit of the CubeSat technology being able to have these really small satellites that can fit in as secondary payloads on, like the Falcon 9 or other launch vehicles so they’ll continue to grow and just their overall capabilities and but the overall structure will probably stay the same size. Yeah and when you see a CubeSat you kind of think it almost looks kind of like a LEGO block so you kind of think in the future when these become more mobile they might start linking up and being kind of like legos where they might connect in space and become a larger propulsion or a larger unit. I definitely think the CubeSat standard is interesting and it’s actually it’s about it’s like 10 years old now, so, that’s interesting. Yeah, when I meant increase capability, the electronics will continue to get better, companies will continue to work on communication systems. Laser like communication systems that enable high bandwidth communication. So the Gravity Development Board can be used inside of a CubeSat to control it’s solar panels or it’s communications system, so. More and more companies will make it easier and easier for people to develop CubeSats. Yeah and your rocket it CubeSat compatible as well, so that’s cool. Yeah, small scale. It doesn’t have any moving part which is one of it’s key features. With an aerospike engine you&amp;#39;re able to control pitch, yaw, and roll with no moving parts and that’s key for a simple project like a CubeSat you want to keep it as simple as possible, so. Yeah, and so Sol-X is sponsoring the JURBAN Google Lunar X-Prize Team and I think you’re also part of, involved with that team as well Blaze? Yeah I was, I stopped. I was the technical program manager until last December and I moved more to an advising role which is what I prefer, technical advising role, but yeah we’re also supplying them the Gravity Development Board for their work. And so you wanted just a quick update on the team? Is that what the question was? Sorry. Sure, yeah do, I I personally don’t know too much about the JURBAN Team. Like how far along are they? Do they have any, a launch planned in the in the near-future? or anything like that? Yeah so they’re pretty far along. They’re one of the only all student teams. We have about 23 members right now and the big thing they’re currently working on right now is the mission control architecture with Capital College. So that’s near Goddard Space Flight Center. It’s the third backup basically for a lot of NASA launch, for a lot of NASA missions and so we’re using their resources and their, just their know-how from the students that are involved with the mission control there. We’ve also continued to do the welding for the lunar lander craft. So, they will be doing a airbag drop test of their lunar lander at the end of the summer is the goal. So that’s just aerospace grade aluminium welded together in a cube-like shape and there’s different portions of that lander that hold airbags that will inflate right before it lands and hits the Moon, so. The idea is to have a drop test from 120 feet and have it impact at 60 miles per hour. Just like it will on the Moon and that will prove to investors hopefully that they have a working system and that the small rover that’s inside can survive the high G loads and different things like that, so. Yeah so JURBAN then has the intensions to commercialize like some of the other teams then? Not commercial the other teams so much but they definitely want to commercial their airbag lander. Basically that would allow scientists from around the world a low cost method for landing on the Moon, on Mars, even on a asteroid with this airbag system you don’t have to worry about fancy throatable engines. You just burn one rocket engine one time and slow down to about 60 miles per hour and just let it bounce in. The Google Lunar X-Prize, there’s no requirement to land accurately, it just says land on the Moon so that’s why they picked that approach. Yeah I’ve seen some videos of, might’ve even been that exact same system and it bounces, it deflates and you’re, you’re good to go, so. Yup. And so, so far your experience with the DIY Rocket Contest, the contest is actually, it’s main sponsor is Sunglass.io, I think and what’s your experience with Sunglass? It’s kind of a interesting new product I think. Yeah it’s a new collaboration tool that allows CAD model revision history basically to be controlled. You can also add notes to the CAD model itself to give people an idea of what section continue to be worked on. There’s a chat function inside of it. Pretty cool. You can also iFrame HTML into websites to make sharing your CAD models easier. So it’s a great tool I think you know. This is one of their, one of their first really big uses and public outreach events for the tool so. Should turn out pretty well I think. Yeah I got to check it out a little bit too when I joined your team and it looks, looks pretty interesting the, I don’t think they have any competitors that I know of right now. So, definitely a interesting niche. So... CubeHero is actually another 3D CAD model revision history thing but they don’t really have the GUI interface that Sunglass has. Still a very powerful tool. Yeah didn’t know about that one. So, we kind of, I guess I kind of asked you about this but not specifically the meta question, Where where do you see the space industry in 10 years with private space really ramping up. SpaceX being very successful. Virgin Galactic just had their success with their test flight of Space Ship Two and not to mention all, all the, the things that get less media coverage but are also very interesting. Where do you think that leaves us for private, for the space industry in general in 10 years from now? I think at least 700 people will have, 700 normal people, will have flown into space with Virgin Galactic. Currently only about 540 people I think have flown into space with NASA and Russia and Japan, so. That’s a huge change. I think 10 or more people will have already been on Bigelow Aerospace hotels in space and at least 3 of the Google Lunar X-Prize teams will have tried to land on the Moon and I think one of them will have been successful. So we’ll be on the Moon commercially and definitely low earth orbit will be full of more commercial opportunities. Yup, some big milestones coming up. It’s exciting. Speaking of exciting, how can the average person get involved with space right now? What are some projects that you guys know of that basically the average person can say, get their hands dirty you know, starting tomorrow? Yeah I would join a Google Lunar X-Prize Team. I myself I joined because I went to a bar Washington D.C. where I met George Whitesides of Virgin Galactic and he told me to go speak with the team leader of JURBAN up at Baltimore, Maryland. It’s really easy, just go to their blogs and figure out where their home base are. They’re always looking for new team members. Besides for that you can also get involved with the DIY Rocket Contest. There’s different teams that have promoted themselves on the website and you can join the Sol-X team just by sending us a Twitter or a Facebook message or just emailing me directly and we can sign you up there. There’s also a lot of interesting things going on a website called Citizen Space. So they have tons of projects where you can just go look at data from satellites or from a Mars imager and help process that data and give very important information to scientists at NASA. So I’d go to Citizen Science, I think it’s .org and get involved there are well. Cool, yeah and I think the Open Space University also plans to do more contests after the rocket contest as well so you can always go to their website and see if they have a open contest and join one of those teams as well. Cool. Is there anything else that you guys want to talk about? Maybe just bring in Paul or Kunal real quick if they have anything they wanted to mention. Well I’ll go ahead and jump in. I just joined the team couple weeks ago and this is a pretty exciting time, I mean if you go back and think of the great explorers, Magellan and up through Armstrong, all of that was funded by the government or the Kings and Queens of the time. We have an opportunity now that we can go to the Moon, we can go to Mars and it’s funded by basically every household in America or in the world. So it’s a really exciting time to be part of it. Yeah I think so too. Yup and our long term goal is really to enable human exploration of space via open-hardware &amp;amp; software, so. Enabling the power of the people to get this us out there. Yeah that’s, that’s really good, a really Do It Yourself kind of vision. Absolutely. Cool. Well, thank you guys for your time and we will keep in touch and follow Sol-X with your progress and once the gravitational board is on the market we’ll be sure to spread the word. Awesome, yeah we can, you can follow us on Twitter at SolX2010 and Facebook at the same URL, so yeah. Cool. We’ll thank you very much and we’ll see you around. Thanks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+	&lt;span class=&quot;social-buttons&quot;&gt;
+		&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//subset3.com/posts/solar-system-express-interview&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;
+		&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//subset3.com/posts/solar-system-express-interview&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=455533301199949&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+		&lt;div class=&quot;twitter-tweet-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;subset_3&quot; data-related=&quot;subset_3&quot;&gt;Tweet&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;
+	&lt;/span&gt;
+	&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &quot;//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=455533301199949&quot;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+&lt;div class=&quot;fb-comments&quot; data-href=&quot;http://subset3.com/posts/solar-system-express-interview&quot; data-width=&quot;914&quot; data-num-posts=&quot;10&quot; data-colorscheme=&quot;light&quot; data-order-by=&quot;social&quot;&gt;&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;span class=&quot;pull-left&quot;&gt;
+				&lt;script data-cfbadgetype=&quot;f&quot; data-cfbadgeskin=&quot;icon&quot; type=&quot;text/javascript&quot;&gt;
+					//&lt;![CDATA[
+					try{window.CloudFlare||function(){var a=window.document,b=a.createElement(&quot;script&quot;),a=a.getElementsByTagName(&quot;script&quot;)[0];window.CloudFlare=[];b.type=&quot;text/javascript&quot;;b.async=!0;b.src=&quot;//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js&quot;;a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a([&quot;cloudflare/badge&quot;])})}catch(e$$5){try{console.error(&quot;CloudFlare badge code could not be loaded. &quot;+e$$5.message)}catch(e$$6){}};
+					//]]&gt;
+				&lt;/script&gt;
+				&amp;copy;2013 SubSet 3 &lt;span class=&quot;&quot;&gt;beta&lt;/span&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;pull-right mdm&quot;&gt;
+				&lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
+				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-03T05:37:37.063Z&lt;/span&gt;
+			&lt;/span&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/twitter-bootstrap/js/bootstrap-min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Dude, Where's my SpaceShip?</title>
+			<link href="http://subset3.com//posts/dude-wheres-my-spaceship"/>
+			<updated>2013-05-08T19:51:32.000Z</updated>
+			<id>http://subset3.com//posts/dude-wheres-my-spaceship</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Dude, Where's my SpaceShip? | SubSet 3&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Hacker-Space and blog.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;Hacker-Space, hackerspace, makerspace, maker-space, outer-space, space, space-hacks&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Michael Mooring&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;http://subset3.com/img/icon-logo_subset3_transparent.png&quot;&gt;
+	&lt;!-- Icons
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;
+    --&gt;
+
+
+	&lt;style type=&quot;text/css&quot;&gt;
+		@-moz-document url-prefix() {
+			.sub-icon{
+				top 14px
+				margin 0px 0px 0px -1px
+			}
+		}
+	&lt;/style&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;!-- Markup --&gt;
+	&lt;a href=&quot;https://github.com/MassDistributionMedia/SubSet3.com&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;github-fork&quot; src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png&quot; alt=&quot;Fork on GitHub&quot;&gt;&lt;/a&gt;
+	&lt;span class=&quot;btn close-header&quot;&gt;&lt;i class=&quot; icon-remove-circle&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+	&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+		&lt;div class=&quot;navbar-inner&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;&lt;span class=&quot;icon-logo&quot;&gt;&lt;span class=&quot;sub-icon&quot;&gt;&amp;sub;&lt;/span&gt;&lt;span class=&quot;sup-icon&quot;&gt;&amp;sup;&lt;/span&gt;&lt;/span&gt; Subset 3 &lt;/a&gt;&lt;span class=&quot;beta&quot;&gt;beta&lt;/span&gt;
+				&lt;ul class=&quot;nav&quot;&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/startup-budget-outline&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/startup-budget-outline&quot; property=&quot;dc:title&quot;&gt;Startup Budget Outline&lt;/a&gt;
+						&lt;/li&gt;
+					
+					&lt;li&gt;
+						&lt;a target=&quot;_blank&quot; href=&quot;http://www.kickstarter.com/projects/1034732745/1189262801?token=ea7be236&quot; id=&quot;donate-home-popover&quot; data-content=&quot;Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you.&quot; data-placement=&quot;bottom&quot;&gt;Kickstarter&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			
+			&lt;!-- Twitter Facebook links --&gt;
+			&lt;a class=&quot;pull-right social-link&quot; href=&quot;https://twitter.com/SubSet_3&quot; title=&quot;Subset 3 Twitter&quot; target=&quot;_blank&quot; style=&quot;margin: 0 232px 0 0;&quot;&gt;Twitter&lt;/a&gt;
+			&lt;a class=&quot;pull-right social-link&quot; href=&quot;https://www.facebook.com/pages/Subset-3/155316667972750&quot; title=&quot;Subset 3 Facebook&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;Dude, Where's my SpaceShip?&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;By: Michael D Mooring&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F90036242&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This article is partly in response to:&lt;/p&gt;
+&lt;p&gt;&lt;a href=http://fightForSpace.com/ target=_blank&gt; FightForSpace.com&lt;/a&gt;&lt;/p&gt;
+&lt;iframe class=”center-post” width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/xSYEdougccY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=http://www.penny4nasa.org/ target=_blank&gt;Penny4Nasa.org&lt;/a&gt;
+ect...&lt;/p&gt;
+&lt;p&gt;In FightForSpace&amp;#39;s trailer linked from YouTube above, many great points are made about the dire importance of keeping NASA healthy financially. The speech by Neil deGrasse Tyson in the second half was conveyed strong, passionately and efficiently and was easy to understand; His message being: Inspiration &amp;amp; Ambition via space exploration are as a fuel to humanity/nationality for the best tomorrow available. &lt;/p&gt;
+&lt;p&gt;As Neil deGrasse Tyson told us the founding reason for NASA was military fear of falling behind Russia. What does that say about the motive the American government to invest in space? Private space is picking up strong momentum and I believe that one day we&amp;#39;ll look back and realize we didn&amp;#39;t need to ask for progress in space when we could be the ones out there, hands on, making it happen.&lt;/p&gt;
+&lt;p&gt;Just look at how much more is getting done in private space already in shorter timelines and smaller budgets. The progress is apparent and the best part about it is we can literally all be involved in it if we want to. If there isn&amp;#39;t a seeming way into the private space industry, you can make one. Even better you can work on exactly the part(s) of space that you&amp;#39;re most passionate about. &lt;/p&gt;
+&lt;p&gt;A good analogy is like asking someone to use their car. Number one, they(NASA) didn&amp;#39;t buy their car for you to ever ride in it and number two &amp;quot;Why not get your own driver&amp;#39;s license and your own car that you can drive anywhere anytime to do whatever you want with?&amp;quot; It’s like asking: &amp;quot;Dude, where&amp;#39;s my spaceship?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Why not be independent and take part in, right now, what is going to be the biggest foreseen future industry? Why would you keep begging your friend for a ride in his car when you can take action and get your own ride? It&amp;#39;s not about the perceptions/awareness of an entire nation. It&amp;#39;s not about who&amp;#39;s not doing what and pointing fingers everywhere. It&amp;#39;s about YOU. YOU personally, make space happen, period.&lt;/p&gt;
+&lt;p&gt;So NASA was inspirational why? Because we thought, even if in the back of our heads, that since NASA is doing these manned missions that maybe one day if I work in the fields of science or become a air force pilot, that I may too go to space; But NASA wasn&amp;#39;t intended or ever even considered leveraging all of it&amp;#39;s newly inspired from the Apollo missions and put them to work, let alone put them in space. It is just not for that, where in the private sector it is possible, because everyone is working on it, making it happen, not waiting for someone else to do it for them. Private industry finds niches, and has to be self sustaining to stick around. Private industry has the great potential to put all those inspired to work and into space. For example Elon Musk, CEO &amp;amp; Founder of SpaceX  (a rocket company in the USA) is proposing a Mars colony in the next 50 years with 80 thousand people shipping out to Mars annually. MarsOne is currently in the process of recruiting astronauts for a permanent Mars mission. Virgin Galactic is geared to take thousands into space in the next ten years and these are just the companies that get the media attention. Lesser known company, &lt;a href=http://www.spaceoperationsinc.com/ target=_blank&gt;Space Operations Inc&lt;/a&gt; is hosting a open call for 4 qualified astronauts to fly in their new spaceship. &lt;/p&gt;
+&lt;p&gt;FightForSpace&amp;#39;s campaign shouldn&amp;#39;t be about begging NASA for a penny. It should be about supporting existing private space entrepreneurs and furthering awareness about the cool projects they&amp;#39;re engaged in and their story which their story will show how anyone can decide to be involved if they make that decision. It should be a campaign to private sector investors to invest and themselves become aware of all these new and exciting investment opportunities. It needn&amp;#39;t be begging the government to invest in NASA in a time when they not only not investing/expanding any public programs, but instead are actively scaling them all back. &lt;/p&gt;
+&lt;p&gt;When Buzz Aldrin publically replied to a SpaceX press release in 2012(I think it was 2012), saying that he thought at the time that big things like building such huge rockets should be left for big agencies like NASA or Boeing, it really got to Elon Musk, CEO &amp;amp; founder of SpaceX. Buzz was a childhood hero for Elon and when interviewed on 60 Minutes, Elon even shed a tear when reminded of Buzz’s words. SpaceX has obviously proved themselves over and over again with successful missions when it counts because Elon Musk, a private-space entrepreneur believed strongly, was passionate, but most of all, was hands on deeply involved and dedicated to the company. &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;center-post&quot; style=&quot;width:425px;&quot;&gt;Watch the 60 Minutes Interview of Elon Musk here:&lt;/p&gt;
+&lt;p&gt;&lt;embed class=&quot;center-post&quot; src=&quot;http://cnettv.cnet.com/av/video/cbsnews/atlantis2/cbsnews_player_embed.swf&quot; scale=&quot;noscale&quot; salign=&quot;lt&quot; type=&quot;application/x-shockwave-flash&quot; background=&quot;#333333&quot; width=&quot;425&quot; height=&quot;279&quot; allowFullScreen=&quot;true&quot; allowScriptAccess=&quot;always&quot; FlashVars=&quot;si=254&amp;&amp;contentValue=50125703&amp;shareUrl=http://www.cbsnews.com/video/watch/?id=7410538n&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;How could you ask us to forsake all the lesser known private space companies who sweat and bleed daily following behind Elon on a march to a strong new private space industry? The days of NASA as a mega-agency inspiring the masses are just not the same anymore. It’s the private industry’s turn, every able person’s turn who wants in, it’s our turn now.&lt;/p&gt;
+&lt;p&gt;NASA itself is relying more and more on private space companies like SpaceX to make their missions cheaper and more effective. NASA is doing private contracts like never before in history. We should acknowledge the trend. &lt;/p&gt;
+&lt;p&gt;Everyone that wants to really can get hands on with space right now TODAY. YOU TODAY CAN DO SPACE NOW. In one word, CubeSat. A &lt;a href=http://www.cubesat.org/ target=_blank&gt;CubeSat&lt;/a&gt; is a &amp;quot;nanosatellite&amp;quot; that&amp;#39;s a 10cm cube that could fit in your hand. It&amp;#39;s a open standard which many universities, companies and agencies are developing CubeSat&amp;#39;s and contributing to the nanosatellite standard. Approximately 75 CuteSats have been launched to date. CubeSat’s can orbit the earth and do all sorts of experiments, but what’s really exciting are some of the new CubeSat’s launching soon. CubeSat’s like &lt;a href=http://en.wikipedia.org/wiki/ESTCube-1 target=_blank&gt;ESTCube-1&lt;/a&gt; and &lt;a href=http://en.wikipedia.org/wiki/LightSail-1 target=_blank&gt;LightSail-1&lt;/a&gt;. ESTCube-1 (short for Estonia Cube) uses what’s called a electric sail which is really just a set of electrically charged wires spinning out from the center and interacting with comic winds (charged particles flung out from the Sun) which creates a little push. A very little push, but since the CubeSat is out in space and weightless with zero drag, that push picks up momentum and you&amp;#39;re off to the sail snail races! Check out this illustration of how a e-sail interacts with cosmic wind:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/AlexandreSzames.jpg&quot; alt=&quot;Alexandre Szames Electric Sail illustration&quot;/&gt;&lt;/p&gt;
+&lt;p&gt; LightSail-1 is a 3U CubeSat (three CubeSats connected in a row, aka a peapod), which will deploy a “solar sail” which is a very reflective, flexible material that, when the Sun’s light (which is a radiation) hits the solar sail, that “hit” creates a push similar to how the e-sail takes a hit of cosmic wind(although be clear that comic wind and solar radiation are two separate things). ESTCube-1 is being done by a University in Estonia in partnership with private companies. LightSail-1 is being done by The Planetary Society, the largest space interest organization, but not a government agency of any kind and also in partnership with a handful of private space companies. Check out this video of LightSail-1&amp;#39;s solar-sail being test-deployed:&lt;/p&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; class=&quot;center-post&quot; src=&quot;http://www.youtube.com/embed/YMMA6bk7Kp4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt; CubeSat&amp;#39;s are the coolest, DIY space projects around yet of course there is the issue of getting them launched into orbit and but when asked: &amp;#39;What&amp;#39;s the hardest thing about going to the moon?&amp;#39; 
+Von Braun replied, &amp;quot;The will to do it.&amp;quot; &lt;/p&gt;
+&lt;p&gt;Passion Produces Possibility. Just Do It! DO SPACE.&lt;/p&gt;
+&lt;p&gt;Thank you for reading,
+Mikeumus&lt;/p&gt;
+&lt;/div&gt;
+	&lt;span class=&quot;social-buttons&quot;&gt;
+		&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//subset3.com/posts/dude-wheres-my-spaceship&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;
+		&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//subset3.com/posts/dude-wheres-my-spaceship&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=455533301199949&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+		&lt;div class=&quot;twitter-tweet-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;subset_3&quot; data-related=&quot;subset_3&quot;&gt;Tweet&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;
+	&lt;/span&gt;
+	&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &quot;//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=455533301199949&quot;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+&lt;div class=&quot;fb-comments&quot; data-href=&quot;http://subset3.com/posts/dude-wheres-my-spaceship&quot; data-width=&quot;914&quot; data-num-posts=&quot;10&quot; data-colorscheme=&quot;light&quot; data-order-by=&quot;social&quot;&gt;&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;span class=&quot;pull-left&quot;&gt;
+				&lt;script data-cfbadgetype=&quot;f&quot; data-cfbadgeskin=&quot;icon&quot; type=&quot;text/javascript&quot;&gt;
+					//&lt;![CDATA[
+					try{window.CloudFlare||function(){var a=window.document,b=a.createElement(&quot;script&quot;),a=a.getElementsByTagName(&quot;script&quot;)[0];window.CloudFlare=[];b.type=&quot;text/javascript&quot;;b.async=!0;b.src=&quot;//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js&quot;;a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a([&quot;cloudflare/badge&quot;])})}catch(e$$5){try{console.error(&quot;CloudFlare badge code could not be loaded. &quot;+e$$5.message)}catch(e$$6){}};
+					//]]&gt;
+				&lt;/script&gt;
+				&amp;copy;2013 SubSet 3 &lt;span class=&quot;&quot;&gt;beta&lt;/span&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;pull-right mdm&quot;&gt;
+				&lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
+				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-03T05:37:37.063Z&lt;/span&gt;
+			&lt;/span&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/twitter-bootstrap/js/bootstrap-min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>A Penny Please</title>
+			<link href="http://subset3.com//posts/a_penny_please"/>
+			<updated>2013-05-08T19:51:24.000Z</updated>
+			<id>http://subset3.com//posts/a_penny_please</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;A Penny Please | SubSet 3&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Hacker-Space and blog.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;Hacker-Space, hackerspace, makerspace, maker-space, outer-space, space, space-hacks&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Michael Mooring&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	
+	&lt;link rel=&quot;shortcut icon&quot; href=&quot;http://subset3.com/img/icon-logo_subset3_transparent.png&quot;&gt;
+	&lt;!-- Icons
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;
+    --&gt;
+
+
+	&lt;style type=&quot;text/css&quot;&gt;
+		@-moz-document url-prefix() {
+			.sub-icon{
+				top 14px
+				margin 0px 0px 0px -1px
+			}
+		}
+	&lt;/style&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;!-- Markup --&gt;
+	&lt;a href=&quot;https://github.com/MassDistributionMedia/SubSet3.com&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;github-fork&quot; src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png&quot; alt=&quot;Fork on GitHub&quot;&gt;&lt;/a&gt;
+	&lt;span class=&quot;btn close-header&quot;&gt;&lt;i class=&quot; icon-remove-circle&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+	&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+		&lt;div class=&quot;navbar-inner&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;&lt;span class=&quot;icon-logo&quot;&gt;&lt;span class=&quot;sub-icon&quot;&gt;&amp;sub;&lt;/span&gt;&lt;span class=&quot;sup-icon&quot;&gt;&amp;sup;&lt;/span&gt;&lt;/span&gt; Subset 3 &lt;/a&gt;&lt;span class=&quot;beta&quot;&gt;beta&lt;/span&gt;
+				&lt;ul class=&quot;nav&quot;&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/startup-budget-outline&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/startup-budget-outline&quot; property=&quot;dc:title&quot;&gt;Startup Budget Outline&lt;/a&gt;
+						&lt;/li&gt;
+					
+					&lt;li&gt;
+						&lt;a target=&quot;_blank&quot; href=&quot;http://www.kickstarter.com/projects/1034732745/1189262801?token=ea7be236&quot; id=&quot;donate-home-popover&quot; data-content=&quot;Your donation will help us start-up and turn the garage into a usage maker-space with a 3D Printer, computers with software to use and classes to teach. Pitch in! and thank you.&quot; data-placement=&quot;bottom&quot;&gt;Kickstarter&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			
+			&lt;!-- Twitter Facebook links --&gt;
+			&lt;a class=&quot;pull-right social-link&quot; href=&quot;https://twitter.com/SubSet_3&quot; title=&quot;Subset 3 Twitter&quot; target=&quot;_blank&quot; style=&quot;margin: 0 232px 0 0;&quot;&gt;Twitter&lt;/a&gt;
+			&lt;a class=&quot;pull-right social-link&quot; href=&quot;https://www.facebook.com/pages/Subset-3/155316667972750&quot; title=&quot;Subset 3 Facebook&quot; target=&quot;_blank&quot;&gt;Facebook&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;A Penny Please&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;By: Michael D Mooring&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F90004106&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This article is partly in response to:&lt;/p&gt;
+&lt;p&gt;&lt;a href=http://fightForSpace.com/ target=_blank&gt; FightForSpace.com&lt;/a&gt;&lt;/p&gt;
+&lt;iframe class=”center-post” width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/xSYEdougccY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=http://www.penny4nasa.org/ target=_blank&gt;Penny4Nasa.org&lt;/a&gt;
+ect...&lt;/p&gt;
+&lt;p&gt;When we ask that NASA be funded in a time of budget cuts all around, it isn&amp;#39;t really fair to the government for us to simply say that NASA is important because without it there are no inspired people. Unless we have a semi-holistic understanding of the debt, budget cuts and what would be cut instead of NASA, then can we argue NASA&amp;#39;s funding. We&amp;#39;ve seen in the recent news how the cuts/layoffs of air-traffic controller was causing the entire airline industry to break down in the USA and the politicians got them back to work that same week before they were off for vacation, but they had to cut other things to allow the air traffic controllers to return to their posts. Of course we could argue that the entire Federal government system is rigged and complain about that, but let&amp;#39;s not. Instead let&amp;#39;s understand the cuts and offer a serious tradeoff, a written paper outlining these things and make it open-source to be forked and crowdsourced and discussed. &lt;/p&gt;
+&lt;p&gt;In the timeless book by Dale Carnagie &amp;quot;&lt;a href=http://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People target=_blank&gt;How to Win Friends and Influence People&lt;/a&gt;&amp;quot;(1937) explains cheifly how to see from the other person&amp;#39;s point of view. It explains the best way to structure your proposal so that it is mutually beneficial and therefore most likely to transact. Without understanding all the other parties affected by the cuts (or at least the party proposed to be cut instead of NASA), then how can we expect our campaign to save NASA to be successful just because it&amp;#39;s &amp;quot;important&amp;quot; (In quotations because it&amp;#39;s probably not as important to the people deciding the cuts and especially not to the party(s) on the receiving end whatever is trading NASA&amp;#39;s place to be cut)?&lt;/p&gt;
+&lt;p&gt;Which leads us to now imagine what it might be like to be a politician. Imagine to have to try to understand everyone&amp;#39;s pleas, usually always from an external/remote plateau? If you were a politician would you weigh your decision on which party shouts the loudest? Or which party is that is present at every available mediation/conversation? By which group was most organized and effect, a group that had power itself? By which group donates the most to the you, the politician. Donations surely must make it easier to help make the decision of who to support. I mean politicians are humans after all and humans that live on planet earth where perfection, if it exists here at all, is all but for a nanosecond. I&amp;#39;m not saying that politicians should always choose to support whoever donates the most but let&amp;#39;s face it, that&amp;#39;s how it works currently. Nature likes to find the easiest way to do things. Think of how water navigates down gravitationally. Politicians don&amp;#39;t always have the luxury of being experts and omniscient on the areas and the party views that they are making decisions on and therefore choosing via donation is the easiest path. So I argue that it&amp;#39;s the nature of that game. Not saying all politicians make every decision this way, of course not, but I&amp;#39;m just describing what we all already know and I don&amp;#39;t think it&amp;#39;s necessarily a bad thing. I think there is a path here. Remember we are seeing from the politicians point of view for this discussion. We are in their clothes, at their office, we are the politician. &lt;/p&gt;
+&lt;p&gt;So why not then would we also lobby for space, efficiently. Meaning not with the stigma that the word traditionally carries, but to engage the conversation from all sides, drawing from our collective knowledge (some of us being experts on the subjects of the parties that would be taking NASA&amp;#39;s place in the budget cuts). Why don&amp;#39;t we be that super organized, effective party that joins the conversations seeing it from as many other viewpoints as able and proposing from that shared point of view. A hybrid proposal, spiked with some lobby-love for our fellow politicians who we&amp;#39;re working with. We need to support the politicians involved. We need to be genuine as Dale&amp;#39;s book describes. We need to care not only for NASA but everyone present and then will we been seen as a real solution and not just a nagging voice from just another ear of a politician that we don&amp;#39;t even know, and they don&amp;#39;t even know us. &lt;/p&gt;
+&lt;p&gt;A lot of what I just described as a proposed solution to save NASA from budget cuts is already happening. This is for us that didn&amp;#39;t know about space-lobbying prior and for us who&amp;#39;ve never put each other in the politician&amp;#39;s shoes. For us who have yet to read Dale Carnegie &amp;quot;How to Win Friends and Influence People&amp;quot;(1937) but will read it because it&amp;#39;s on Audible so you don&amp;#39;t even have to read it, you can just listen to it hands free while you go about your life. Please read it. If everyone on every side of the discussion read the book, much more understanding, friendships between parties and progress would result. &lt;/p&gt;
+&lt;p&gt;If you like to order the book online, new or used, you may do so via the following link to Amazon. Any purchases through the link will help financially support SubSet 3&amp;#39;s organization in teaching tech/science classes and other community efforts. &lt;/p&gt;
+&lt;iframe class=&quot;center-post amazon-link&quot; src=&quot;http://rcm.amazon.com/e/cm?lt1=_blank&amp;bc1=FFFFFF&amp;IS2=1&amp;npa=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=lef4deatou-20&amp;o=1&amp;p=8&amp;l=as1&amp;m=amazon&amp;f=ifr&amp;ref=qf_sp_asin_til&amp;asins=1439167346&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;Thank you for reading,
+Mikeumus&lt;/p&gt;
+&lt;/div&gt;
+	&lt;span class=&quot;social-buttons&quot;&gt;
+		&lt;div class=&quot;google-plus-one-button social-button&quot;&gt;
+	&lt;div class=&quot;g-plusone&quot; data-size=&quot;medium&quot; data-href=&quot;http%3A//subset3.com/posts/a_penny_please&quot;&gt;&lt;/div&gt;
+	&lt;script&gt;
+		(function() {
+			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+			po.src = 'https://apis.google.com/js/plusone.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+	&lt;/script&gt;
+&lt;/div&gt;
+		&lt;div class=&quot;facebook-like-button social-button&quot;&gt;
+	&lt;iframe src=&quot;//www.facebook.com/plugins/like.php?href=http%3A//subset3.com/posts/a_penny_please&amp;amp;send=false&amp;amp;layout=button_count&amp;amp;width=450&amp;amp;show_faces=false&amp;amp;font&amp;amp;colorscheme=light&amp;amp;action=like&amp;amp;height=21&amp;amp;appId=455533301199949&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:450px; height:21px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+		&lt;div class=&quot;twitter-tweet-button social-button&quot;&gt;
+	&lt;a href=&quot;https://twitter.com/share&quot; class=&quot;twitter-share-button&quot; data-via=&quot;subset_3&quot; data-related=&quot;subset_3&quot;&gt;Tweet&lt;/a&gt;
+	&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;//platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+&lt;/div&gt;
+	&lt;/span&gt;
+	&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &quot;//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=455533301199949&quot;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+&lt;div class=&quot;fb-comments&quot; data-href=&quot;http://subset3.com/posts/a_penny_please&quot; data-width=&quot;914&quot; data-num-posts=&quot;10&quot; data-colorscheme=&quot;light&quot; data-order-by=&quot;social&quot;&gt;&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;span class=&quot;pull-left&quot;&gt;
+				&lt;script data-cfbadgetype=&quot;f&quot; data-cfbadgeskin=&quot;icon&quot; type=&quot;text/javascript&quot;&gt;
+					//&lt;![CDATA[
+					try{window.CloudFlare||function(){var a=window.document,b=a.createElement(&quot;script&quot;),a=a.getElementsByTagName(&quot;script&quot;)[0];window.CloudFlare=[];b.type=&quot;text/javascript&quot;;b.async=!0;b.src=&quot;//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js&quot;;a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a([&quot;cloudflare/badge&quot;])})}catch(e$$5){try{console.error(&quot;CloudFlare badge code could not be loaded. &quot;+e$$5.message)}catch(e$$6){}};
+					//]]&gt;
+				&lt;/script&gt;
+				&amp;copy;2013 SubSet 3 &lt;span class=&quot;&quot;&gt;beta&lt;/span&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;pull-right mdm&quot;&gt;
+				&lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
+				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-03T05:37:37.063Z&lt;/span&gt;
+			&lt;/span&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/twitter-bootstrap/js/bootstrap-min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>

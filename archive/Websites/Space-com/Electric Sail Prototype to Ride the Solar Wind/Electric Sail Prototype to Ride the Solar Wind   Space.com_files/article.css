@@ -1,0 +1,24 @@
+.article_additional{ width:100%; float:left; color:#335d2d; }
+.article_additional li{ padding-bottom:10px; }
+.article_additional ul{ padding-left:25px; }
+.article_additional a{ color:#335d2d; text-decoration:none; font-size:14px; }
+
+/************************* Article Adsense ***********************************/
+.left_adsense{ width:230px; clear:both; float:left; padding:4px 0px; margin:20px 15px 10px 0; .margin-top:5px; border-top:1px solid #C2C2C2; border-bottom:1px solid #C2C2C2; }
+.left_adsense div{ width:210px; float:left; }
+.center_adsense{ width:100%; float:left; padding:10px 0px; margin:10px; .margin:5px; border-top:1px solid #666666; border-bottom:1px solid #666666; }
+.center_adsense div{ width:100%; float:left; }
+.right_adsense{ width:230px; float:right; padding:10px 0px; margin:10px; .margin:5px; border-top:1px solid #666666; border-bottom:1px solid #666666; }
+.right_adsense div{ width:210px; float:left; }
+.article_adtitle a{ color:#727f6e; font-size:12px; font-weight:bold; }
+.article_adtitle a:hover { color:#999999; }
+.article_adgap{ padding-bottom:10px; padding-right:10px; }
+/*****************************************************************************/
+
+/************************* Article Image *************************************/
+.article_ienlarge{ width:163px; float:left; margin-right:10px;  }
+.article_ienlarge div{ float:left; width:161px; border:1px solid #7b8877; margin-bottom:5px; }
+.article_itext{ width:157px !important; padding:2px; font-size:11px; color:#666666; }
+.article_ienlright{ float:right; }
+/*****************************************************************************/
+.article_info h2{ font-size:12px; font-weight:bold; }
