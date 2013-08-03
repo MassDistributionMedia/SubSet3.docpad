@@ -22,6 +22,7 @@ docpadConfig = {
 			url: "http://subset3.com"
 
 			services:
+				facebookAppId: '455533301199949'
 				facebookLikeButton:
 					applicationId: '455533301199949'
 				facebookFollowButton:
@@ -126,6 +127,14 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+
+	# =================================
+    # Plugin Configuration
+
+    # Skip Unsupported Plugins
+    # Set to `false` to load all plugins whether or not they are compatible with our DocPad version or not
+    skipUnsupportedPlugins: false  # default
+
 }
 
 

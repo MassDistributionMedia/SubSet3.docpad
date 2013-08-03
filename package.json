@@ -1,61 +1,62 @@
 {
-	"name": "subset3.docpad",
-	"version": "0.0.1-41",
-	"private": true,
-	"description": "Hackerspace and tech blog.",
-	"homepage": "https://github.com/MassDistributionMedia/subset3.com",
-	"keywords": [
-		"docpad",
-		"hackerspace",
-		"makerspace",
-		"DIY",
-		"maker",
-		"inventor",
-		"fablab",
-		"subset3"
-	],
-	"author": "MDM Inc <mike@mdm.cm> (http://mdm.cm)",
-	"maintainers": [
-		"Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
-	],
-	"contributors": [
-		"Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
-	],
-	"bugs": {
-		"url": "https://github.com/MassDistributionMedia/subset3.com/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/MassDistributionMedia/subset3.com.git"
-	},
-	"engines": {
-		"node": ">= 0.8.x",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-		"docpad": "6.x",
-		"docpad-plugin-cleanurls": "2.x",
-		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-eco": "2.x",
-		"docpad-plugin-less": "2.x",
-		"docpad-plugin-marked": "2.x",
-		"docpad-plugin-partials": "2.x",
-		"docpad-plugin-stylus": "2.x",
-		"docpad-plugin-text": "2.x",
-		"docpad-plugin-feedr": "2.4.2",
-		"docpad-plugin-nativecomments": "2.x",
-		"docpad-plugin-services": "2.x",
-		"moment": "2.x"
-	},
-	"devDependencies": {
-		"docpad-plugin-livereload": "2.x"
-	},
-	"main": "node_modules/docpad/bin/docpad-server",
-	"subdomain": "subset3-mdm",
-	"domains": [
-		"subset3.com"
-	],
-	"scripts": {
-		"start": "node_modules/docpad/bin/docpad-server"
-	}
+  "name": "subset3.docpad",
+  "version": "0.0.1-51",
+  "private": true,
+  "description": "Hackerspace and tech blog.",
+  "homepage": "https://github.com/MassDistributionMedia/subset3.com",
+  "keywords": [
+    "docpad",
+    "hackerspace",
+    "makerspace",
+    "DIY",
+    "maker",
+    "inventor",
+    "fablab",
+    "subset3"
+  ],
+  "author": "MDM Inc <mike@mdm.cm> (http://mdm.cm)",
+  "maintainers": [
+    "Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
+  ],
+  "contributors": [
+    "Michael Mooring <mike@mdm.cm> (http://mdm.cm)"
+  ],
+  "bugs": {
+    "url": "https://github.com/MassDistributionMedia/subset3.com/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MassDistributionMedia/subset3.com.git"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "docpad": "~6.47.0",
+    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "2.x",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-text": "2.x",
+    "docpad-plugin-services": "2.x",
+    "docpad-plugin-feedr": "2.x",
+    "docpad-plugin-facebookcomments": "~2.0.4",
+    "moment": "2.x",
+    "docpad-plugin-ghpages": "~2.3.0"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.x"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "subdomain": "subset3-mdm",
+  "domains": [
+    "subset3.com"
+  ],
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  }
 }
