@@ -7,9 +7,6 @@ $ ->
 		else
 			$(".close-header").css "opacity", "0"
 			$(".navbar").css "position", "fixed"
-			
-		$(".close-header").css "display", 'block'  if $(this).scrollTop() is 0
 
 	$(".close-header").click ->
-		$(".navbar").css "position", "relative"
-		$(".close-header").css "display", "none"
+		$(".navbar").toggle()
